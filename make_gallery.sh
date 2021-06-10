@@ -35,6 +35,7 @@ for src in papes/*; do
   echo "[![$filename]($thumb_url)]($pape_url)" >>README.md
 done
 
+# for mobile wallpapers to be appended at the bottom of the thumbnails
 total=$(ls mobile/ | wc -l)
 i=0
 
