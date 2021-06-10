@@ -34,3 +34,20 @@ for src in papes/*; do
 
   echo "[![$filename]($thumb_url)]($pape_url)" >>README.md
 done
+
+total=$(ls mobile/ | wc -l)
+i=0
+
+for src in mobile/*; do
+  ((i++))
+  filename="$(basename "$src")"
+  printf '%4d/%d: %s\n' "$i" "$total" "$filename"
+
+  convert -resize 200x "$src" "${src/mobile/thumbnails}"
+
+  filename_escaped="${filename// /%20}"
+  thumb_url="$url_root/thumbnails/$filename_escaped"
+  pape_url="$url_root/mobile/$filename_escaped"
+
+  echo "[![$filename]($thumb_url)]($pape_url)" >>README.md
+done
