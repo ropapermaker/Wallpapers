@@ -14,8 +14,8 @@ mkdir thumbnails
 
 url_root="https://raw.githubusercontent.com/ropapermaker/Wallpapers/master"
 
-echo "### Wallpapers" >README.md
-echo "My current wallpaper rotation" >>README.md
+echo "## My Wallpaper Collection" >README.md
+echo "### Desktop Wallpapers" >>README.md
 echo "" >>README.md
 
 total=$(ls papes/ | wc -l)
@@ -34,6 +34,11 @@ for src in papes/*; do
 
   echo "[![$filename]($thumb_url)]($pape_url)" >>README.md
 done
+
+# Mobile wallpapers section
+echo "" >>README.md
+echo "### Mobile Wallpapers" >>README.md
+echo "" >>README.md
 
 # for mobile wallpapers to be appended at the bottom of the thumbnails
 total=$(ls mobile/ | wc -l)

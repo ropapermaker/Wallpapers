@@ -1,5 +1,5 @@
-### Wallpapers
-My current wallpaper rotation
+## My Wallpaper Collection
+### Desktop Wallpapers
 
 [![04a4l79twg371.jpg](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/04a4l79twg371.jpg)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/papes/04a4l79twg371.jpg)
 [![1602895579547.jpeg](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/1602895579547.jpeg)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/papes/1602895579547.jpeg)
@@ -66,6 +66,9 @@ My current wallpaper rotation
 [![w.png](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/w.png)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/papes/w.png)
 [![wxhzokgv8ow61.jpg](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/wxhzokgv8ow61.jpg)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/papes/wxhzokgv8ow61.jpg)
 [![yzyh3sab9iu61.jpg](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/yzyh3sab9iu61.jpg)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/papes/yzyh3sab9iu61.jpg)
+
+### Mobile Wallpapers
+
 [![1cb1ce8f177ee2f7f10741b4cf4bcf97.jpg](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/1cb1ce8f177ee2f7f10741b4cf4bcf97.jpg)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/mobile/1cb1ce8f177ee2f7f10741b4cf4bcf97.jpg)
 [![20201208_010417-scale-2_00x.jpg](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/20201208_010417-scale-2_00x.jpg)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/mobile/20201208_010417-scale-2_00x.jpg)
 [![5EyllOu.jpg](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/thumbnails/5EyllOu.jpg)](https://raw.githubusercontent.com/ropapermaker/Wallpapers/master/mobile/5EyllOu.jpg)
