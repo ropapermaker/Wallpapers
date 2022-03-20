@@ -9,8 +9,8 @@
 # Uses imagemagick's `convert`, so make sure that's installed.
 # On Nix, nix-shell -p imagemagick --run ./make_gallery.sh
 
-rm -rf thumbnails
-mkdir thumbnails
+# rm -rf thumbnails
+mkdir -p thumbnails
 
 url_root="https://raw.githubusercontent.com/ropapermaker/Wallpapers/master"
 
@@ -26,7 +26,7 @@ for src in papes/*; do
   filename="$(basename "$src")"
   printf '%4d/%d: %s\n' "$i" "$total" "$filename"
 
-  convert -resize 200x "$src" "${src/papes/thumbnails}"
+  test -e "$src" || convert -resize 200x "$src" "${src/papes/thumbnails}"
 
   filename_escaped="${filename// /%20}"
   thumb_url="$url_root/thumbnails/$filename_escaped"
@@ -49,7 +49,7 @@ for src in mobile/*; do
   filename="$(basename "$src")"
   printf '%4d/%d: %s\n' "$i" "$total" "$filename"
 
-  convert -resize 200x "$src" "${src/mobile/thumbnails}"
+  test -e "$src" || convert -resize 200x "$src" "${src/mobile/thumbnails}"
 
   filename_escaped="${filename// /%20}"
   thumb_url="$url_root/thumbnails/$filename_escaped"
