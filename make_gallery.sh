@@ -10,7 +10,7 @@
 # On Nix, nix-shell -p imagemagick --run ./make_gallery.sh
 
 # rm -rf thumbnails
-mkdir -p thumbnails
+mkdir -p thumbnails papes mobile
 
 url_root="https://raw.githubusercontent.com/ropapermaker/Wallpapers/master"
 
