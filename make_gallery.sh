@@ -26,7 +26,7 @@ for src in papes/*; do
   filename="$(basename "$src")"
   printf '%4d/%d: %s\n' "$i" "$total" "$filename"
 
-  test -e "$src" || convert -resize 200x "$src" "${src/papes/thumbnails}"
+  test -e "${src/papes/thumbnails}" || convert -resize 200x "$src" "${src/papes/thumbnails}"
 
   filename_escaped="${filename// /%20}"
   thumb_url="$url_root/thumbnails/$filename_escaped"
@@ -49,7 +49,7 @@ for src in mobile/*; do
   filename="$(basename "$src")"
   printf '%4d/%d: %s\n' "$i" "$total" "$filename"
 
-  test -e "$src" || convert -resize 200x "$src" "${src/mobile/thumbnails}"
+  test -e "${src/papes/thumbnails}" || convert -resize 200x "$src" "${src/mobile/thumbnails}"
 
   filename_escaped="${filename// /%20}"
   thumb_url="$url_root/thumbnails/$filename_escaped"
