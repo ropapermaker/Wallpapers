@@ -49,7 +49,7 @@ for src in mobile/*; do
   filename="$(basename "$src")"
   printf '%4d/%d: %s\n' "$i" "$total" "$filename"
 
-  test -e "${src/mobile/thumbnails}" || convert -resize 200x "$src" "${src/mobile/thumbnails}"
+  test -e "${src/mobile/thumbnails}" || convert -resize 200x400^ -gravity center -extent 200x400 "$src" "${src/mobile/thumbnails}"
 
   filename_escaped="${filename// /%20}"
   thumb_url="$url_root/thumbnails/$filename_escaped"
